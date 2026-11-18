@@ -1,0 +1,50 @@
+{
+ "size": "1080x1920",
+ "fps": 30,
+ "font": "fonts/Inter-ExtraBold.otf",
+ "text_color": "#ede7d9",
+ "text_style": "shadow",
+ "music": "",
+ "scenes": [
+  {
+   "background": "photos/carca1.jpg",
+   "text": "These “medieval” roofs are less than two hundred years old.",
+   "seconds": 4,
+   "zoom": true,
+   "dim": 0.5,
+   "position": "center"
+  },
+  {
+   "background": "photos/carca2.jpg",
+   "text": "The Cité de Carcassonne. Viollet-le-Duc began restoring it in 1853.",
+   "seconds": 5,
+   "zoom": true,
+   "dim": 0.38,
+   "position": "upper"
+  },
+  {
+   "background": "photos/carca3.jpg",
+   "text": "He topped the towers with northern slate instead of southern tile.",
+   "seconds": 5.5,
+   "zoom": true,
+   "dim": 0.5,
+   "position": "upper"
+  },
+  {
+   "background": "photos/carca1.jpg",
+   "text": "In his own lifetime, he was accused of rebuilding too much.",
+   "seconds": 5,
+   "zoom": true,
+   "dim": 0.5,
+   "position": "upper"
+  },
+  {
+   "background": "photos/carca2.jpg",
+   "text": "Follow to learn more.\nStay Archi-curious!",
+   "seconds": 3.5,
+   "zoom": true,
+   "dim": 0.6,
+   "position": "center"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "size": "1080x1920",
+ "fps": 30,
+ "font": "fonts/Inter-ExtraBold.otf",
+ "text_color": "#ede7d9",
+ "text_style": "shadow",
+ "music": "",
+ "scenes": [
+  {
+   "background": "photos/carca1.jpg",
+   "text": "Ces toits « médiévaux » ont moins de deux cents ans.",
+   "seconds": 4,
+   "zoom": true,
+   "dim": 0.5,
+   "position": "center"
+  },
+  {
+   "background": "photos/carca2.jpg",
+   "text": "La Cité de Carcassonne. Viollet-le-Duc la restaure à partir de 1853.",
+   "seconds": 5,
+   "zoom": true,
+   "dim": 0.38,
+   "position": "upper"
+  },
+  {
+   "background": "photos/carca3.jpg",
+   "text": "Il coiffe les tours d'ardoise du Nord, plutôt que de tuiles du Sud.",
+   "seconds": 5.5,
+   "zoom": true,
+   "dim": 0.5,
+   "position": "upper"
+  },
+  {
+   "background": "photos/carca1.jpg",
+   "text": "Dès son vivant, on l'accuse d'avoir trop refait à neuf.",
+   "seconds": 5,
+   "zoom": true,
+   "dim": 0.5,
+   "position": "upper"
+  },
+  {
+   "background": "photos/carca2.jpg",
+   "text": "Abonne-toi pour en apprendre plus.\nReste Archi-curieux !",
+   "seconds": 3.5,
+   "zoom": true,
+   "dim": 0.6,
+   "position": "center"
+  }
+ ]
+}

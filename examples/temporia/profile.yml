@@ -1,0 +1,116 @@
+# EXAMPLE PROFILE: Temporia (web quiz app about history and heritage)
+# A real project used as a worked example. Facts are a snapshot from November 2026.
+# Copy the shape, not the content: run `studio-setup` to build your own.
+
+version: 1
+
+identity:
+  name: "Temporia"
+  tagline: "Le Duolingo de l'histoire et de la culture : redécouvre ta région avec des quiz."
+  type: "product"
+  website: "https://temporia.ovh"
+  language: "fr"
+  assistant_language: "fr"
+  audience:
+    description: "Curieux de toute la France, amateurs d'histoire, de culture et de patrimoine, qui aiment les quiz et découvrir leur région ou d'autres"
+    level: "curious"
+    location: "France"
+  goal: "awareness"
+  success_metric: "Premiers joueurs réguliers et abonnés engagés avant la sortie officielle du 1er janvier 2027"
+
+scope:
+  domains:
+    - "faits historiques surprenants (France d'abord)"
+    - "patrimoine, musées et petits sites"
+    - "gastronomie et savoir-faire régionaux"
+    - "présentation et nouveautés de l'application Temporia"
+  excluded:
+    - "politique partisane et actualité polémique"
+    - "tout fait non vérifiable ou controversé sans source solide"
+  evergreen_vs_timely: "mostly evergreen"
+  fact_policy: "verified"
+  never_invent:
+    - "statistiques et chiffres d'usage"
+    - "partenariats avec des musées ou sites (aucun n'est acquis tant que le fondateur ne l'a pas confirmé)"
+    - "récompenses ou visites gratuites présentées comme acquises"
+    - "dates de sortie ou de fonctionnalités non confirmées"
+
+voice:
+  tone: [curieux, malicieux, jamais condescendant]
+  address: "informal"        # tutoiement
+  vocabulary_do: ["Archi-vrai", "Archi-faux"]
+  vocabulary_avoid: ["jargon scolaire", "ton professoral"]
+  signature: "Reste Archi-curieux !"
+  emoji: "light"
+  hashtag_policy: "3 à 5 hashtags pertinents"
+
+brand:
+  colors:
+    primary: "#4b4237"
+    secondary: "#d5a021"
+    background: "#ede7d9"
+    text: "#4b4237"
+    accent: "#b84a2c"
+  fonts:
+    heading: "Anton (titres)"
+    body: "police du site (une seule graisse)"
+  logo: "logo officiel : le T gothique seul"
+  mascot: "Archi, castor à lunettes rondes dorées, chapeau de feutre à plume orange, nœud rouge ; poses et costumes d'époque"
+  image_style: "photos d'objets ou de lieux + mascotte animée ; texte lisible sans effort"
+  image_sources:
+    - "fichiers propres"
+    - "domaine public ou licence ouverte, avec crédit (Wikimedia Commons)"
+
+channels:
+  - name: instagram
+    handle: "@temporia_off"
+    formats: [reel, carousel]
+    cadence_per_week: 4
+    preferred_days: []
+    preferred_times: ["18:00"]
+    timezone: "Europe/Paris"
+  - name: tiktok
+    handle: "@temporia_off"
+    formats: [short]
+    cadence_per_week: 4
+    preferred_days: []
+    preferred_times: []
+    timezone: "Europe/Paris"
+
+formats:
+  video:
+    enabled: true
+    vertical: "1080x1920"
+    target_seconds: [18, 25]
+    music_dir: "musique/"
+    subtitles: true
+  text:
+    max_caption_chars: 2000
+
+cta:
+  primary: "S'abonner (en fin de reel, jamais dans la première seconde)"
+  rules: "un seul appel à l'action par contenu"
+
+tracking:
+  backend: "notion"
+  local_file: "content-log.csv"
+  notion:
+    database_url: ""          # à renseigner
+  google_sheets: {spreadsheet_url: ""}
+  airtable: {base_id: "", table: ""}
+
+analytics:
+  source: "metricool"
+  metricool_brand: ""
+  review_every_days: 14
+  min_posts_per_comparison: 5
+
+rules:
+  require_human_approval: true
+  automate_engagement: false
+  disclose_ai_use: "quand la plateforme l'exige"
+  private_info_in_prompts: false
+  custom:
+    - "Accroche universelle : pas de nom de lieu dans les premières secondes, le lieu est révélé ensuite"
+    - "Chaque publication porte un lieu en rapport avec le sujet"
+    - "Un contenu n'est jamais muet"

@@ -1,0 +1,115 @@
+# Content Studio profile
+# Created by the `studio-setup` skill. Every other skill reads this file.
+# Edit it by hand any time. Keep it in your own project folder, NOT in the pack repo.
+# Fields marked (required) must be filled; the rest are optional.
+
+version: 1
+
+# --- 1. Who you are -------------------------------------------------------
+identity:
+  name: ""                  # (required) brand / project / person name
+  tagline: ""               # one line: what you do
+  type: ""                  # brand | creator | product | museum | school | association | other
+  website: ""
+  language: "en"            # (required) language of the content you publish (ISO code)
+  assistant_language: ""    # language Claude answers you in; empty = same as `language`
+  audience:                 # (required) who you want to reach
+    description: ""
+    level: ""               # beginner | curious | expert | mixed
+    location: ""            # "worldwide", a country, a region...
+  goal: ""                  # (required) awareness | traffic | sales | community | education | recruiting
+  success_metric: ""        # how you will know it works (e.g. "500 followers by March")
+
+# --- 2. Topic scope (the most important block) ------------------------------
+scope:
+  domains:                  # (required) the ONLY topics the pack may suggest or write about
+    - ""
+  excluded:                 # topics, people, events that are off-limits
+    - ""
+  evergreen_vs_timely: "mostly evergreen"   # mostly evergreen | balanced | mostly timely
+  fact_policy: "verified"   # verified = 2 independent sources before any factual claim
+  never_invent:             # claims the pack must ask you about instead of guessing
+    - "statistics"
+    - "partnerships"
+    - "testimonials"
+    - "prices and dates"
+
+# --- 3. Voice ---------------------------------------------------------------
+voice:
+  tone: []                  # e.g. [curious, playful, never condescending]
+  address: "informal"       # informal | formal | neutral (tu/vous, du/Sie, ...)
+  vocabulary_do: []         # recurring words or catchphrases
+  vocabulary_avoid: []
+  signature: ""             # sign-off line, if any
+  emoji: "light"            # none | light | heavy
+  hashtag_policy: "3-5 relevant, no spam"
+
+# --- 4. Visual identity -----------------------------------------------------
+brand:
+  colors:                   # hex codes
+    primary: ""
+    secondary: ""
+    background: ""
+    text: ""
+    accent: ""
+  fonts:
+    heading: ""             # name + path to a font file you have the right to use
+    body: ""
+  logo: ""                  # path to logo file
+  mascot: ""                # path / description, if any
+  image_style: ""           # photo | illustration | mixed ; free description
+  image_sources:            # where visuals may come from
+    - "own files"
+    - "public domain / open licence (credit required)"
+
+# --- 5. Channels and formats ---------------------------------------------------
+channels:
+  - name: instagram         # instagram | tiktok | youtube | linkedin | x | threads | blog | newsletter
+    handle: ""
+    formats: [reel, carousel, post]
+    cadence_per_week: 3
+    preferred_days: []      # e.g. [mon, wed, fri]
+    preferred_times: []     # e.g. ["18:00"]
+    timezone: "UTC"
+
+formats:
+  video:
+    enabled: false          # true = the optional studio-video module is used
+    vertical: "1080x1920"
+    target_seconds: [15, 30]
+    music_dir: ""           # folder with music you may use
+    subtitles: true
+  text:
+    max_caption_chars: 2000
+
+# --- 6. Calls to action ------------------------------------------------------------
+cta:
+  primary: ""               # the one action you want ("follow", "visit the site"...)
+  rules: "one call to action per piece"
+
+# --- 7. Tracking (where content is logged) ---------------------------------------------
+tracking:
+  backend: "local"          # local | notion | google-sheets | airtable   (see adapters/)
+  local_file: "content-log.csv"
+  notion:
+    database_url: ""
+  google_sheets:
+    spreadsheet_url: ""
+  airtable:
+    base_id: ""
+    table: ""
+
+# --- 8. Analytics ----------------------------------------------------------------------
+analytics:
+  source: "manual"          # metricool | platform-export | manual
+  metricool_brand: ""
+  review_every_days: 14
+  min_posts_per_comparison: 5   # never compare formats on fewer posts than this
+
+# --- 9. Rules & safety ------------------------------------------------------------------
+rules:
+  require_human_approval: true     # nothing is published or sent without a human yes
+  automate_engagement: false       # keep false: likes, follows, comments are never automated
+  disclose_ai_use: "when the platform requires it"
+  private_info_in_prompts: false   # never send personal data to outside services
+  custom: []

@@ -1,0 +1,4 @@
+id,title,status,channel,format,domain,hook,body,caption,hashtags,alt_text,visual_brief,sources,image_credits,verified,cta,planned_date,published_date,post_url,location_tag,notes
+2027-01-0001,[ILLUSTRATIVE] Un fait surprenant sur un objet du quotidien,idea,instagram,reel,faits historiques surprenants,,,,,,,,,false,,,,,,Example row: no real fact here; sources are filled and checked by studio-ideas
+2027-01-0002,[ILLUSTRATIVE] Spécialité régionale : d'où vient son nom ?,approved,instagram,reel,gastronomie et savoir-faire régionaux,,,,,,,,,false,S'abonner,2027-01-12T18:00:00+01:00,,,,Needs 2 independent sources before drafting
+2027-01-0003,[ILLUSTRATIVE] Présentation de l'appli : le carnet de tampons,draft,tiktok,short,présentation de l'application,,,,,,,,,true,S'abonner,2027-01-14T18:00:00+01:00,,,,Product feature: describe only what exists in the app today

@@ -1,0 +1,13 @@
+{
+  "size": "1080x1920",
+  "fps": 30,
+  "font": "fonts/YourFont.ttf",
+  "text_color": "#ede7d9",
+  "box_color": "#4b423799",
+  "music": "",
+  "scenes": [
+    {"background_color": "#4b4237", "text": "Phrase d'accroche posée, six à neuf mots.", "seconds": 4},
+    {"background_color": "#4b4237", "text": "La réponse, en une phrase lue tranquillement.", "seconds": 5},
+    {"background_color": "#d5a021", "text": "Reste Archi-curieux !", "seconds": 3}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "size": "1080x1920",
+  "fps": 30,
+  "font": "assets/fonts/YourFont.ttf",
+  "text_color": "#ffffff",
+  "box_color": "#00000088",
+  "music": "",
+  "music_volume": 0.25,
+  "scenes": [
+    {"background_color": "#4b4237", "text": "Hook sentence that creates a gap.", "seconds": 4},
+    {"background_color": "#d5a021", "text": "The surprising answer, in one sentence you can read calmly.", "seconds": 5},
+    {"background_color": "#4b4237", "text": "Follow for more.", "seconds": 3}
+  ]
+}
