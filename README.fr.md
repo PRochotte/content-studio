@@ -52,7 +52,7 @@ Puis, dans votre dossier de projet : *« Configure Content Studio. »*
 
 ## Démo
 
-Une vidéo de démonstration (configuration → idées → création → vidéo → analyse) sera liée ici : **[vidéo de démo (français)](https://youtu.be/REPLACE_ME_FR)** · [English version](https://youtu.be/REPLACE_ME). Elle montre un vrai run, dont les fichiers sont dans [`examples/temporia/demo-run/`](examples/temporia/demo-run/).
+Une vidéo de démonstration (configuration → idées → création → vidéo → analyse) : **[vidéo de démo (français)](https://youtu.be/OJ_CTXQ1vuw)** · [English version](https://youtu.be/U0UuWZV3FqM). Elle montre un vrai run, dont les fichiers sont dans [`examples/temporia/demo-run/`](examples/temporia/demo-run/).
 
 ## Exemple
 

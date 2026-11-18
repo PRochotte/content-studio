@@ -64,7 +64,7 @@ Then, in your own project folder, say: *"Set up Content Studio."*
 
 ## Demo
 
-A walkthrough video (setup → ideas → create → video → analytics) is linked here once published: **[demo video (English)](https://youtu.be/REPLACE_ME)** · [version française](https://youtu.be/REPLACE_ME_FR). It shows a real run, whose files are in [`examples/temporia/demo-run/`](examples/temporia/demo-run/).
+A walkthrough video (setup → ideas → create → video → analytics): **[demo video (English)](https://youtu.be/U0UuWZV3FqM)** · [version française](https://youtu.be/OJ_CTXQ1vuw). It shows a real run, whose files are in [`examples/temporia/demo-run/`](examples/temporia/demo-run/).
 
 ## Worked example
 
